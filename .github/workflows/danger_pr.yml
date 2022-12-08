@@ -1,8 +1,9 @@
-name: Run Danger on PR
+name: Run on PR
 
 on:
   pull_request_target:
-    types: [opened, edited, reopened, synchronize]
+    types: [reopened, synchroni
+e]
 
 permissions:
   actions: write
